@@ -13,9 +13,9 @@ You need to have Node.js and npm installed on your machine. If not, you can down
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
 3. Install the required dependencies using npm:
+'''
 bash npm install node-telegram-bot-api
-
-
+'''
 
 ## Usage
 
