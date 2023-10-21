@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 
-const token = '5944659266:AAEhPzj8wD4zNT5IM39-VmAdhGa6q0-kPBs';
+const token = '5944659266:AAGsbe5hKLjFt5ghpPot7yUq4v60bUUDUGs';
 
 const bot = new TelegramBot(token, {polling: true});
 
@@ -23,7 +23,7 @@ bot.on('inline_query', (msg) => {
         id: '1',
         title: 'Send the message.',
         input_message_content: {
-            message_text: query + ' #afk'
+            message_text: '#afk ' + query
         }
     }];
 
