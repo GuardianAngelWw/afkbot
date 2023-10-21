@@ -23,7 +23,7 @@ bot.on('inline_query', (msg) => {
         id: '1',
         title: 'Send the message.',
         input_message_content: {
-            message_text: '#afk \n' + query
+            message_text: query + " #afk"
         }
     }];
 
