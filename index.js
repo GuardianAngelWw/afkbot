@@ -9,7 +9,7 @@ function markdownV2Escape(str) {
 }
 
 bot.onText(/\/start/, (msg) => {
-    const messageToBeSent = '𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲:\n• This bot is used specifically to 𝗲𝘀𝗰𝗮𝗽𝗲 𝗹𝗼𝗴𝘁𝗶𝗺𝗲 for AFK\n• Use 𝗶𝗻𝗹𝗶𝗻𝗲 to escape in chat\n  For example: `@iamafkbot I\’m sorry; this is not a good time. I will call you later`.\n• Click the popup of your input.\n• This will escape afk footprints and keep you afk still.\n• Do not share any private 𝗰𝗿𝗲𝗱𝗲𝗻𝘁𝗶𝗮𝗹𝘀 via the bot.\n• Happy offscreening 👋';
+    const messageToBeSent = '𝗛𝗼𝘄 𝗧𝗼 𝗨𝘀𝗲:\n• This bot is used specifically to 𝗲𝘀𝗰𝗮𝗽𝗲 𝗹𝗼𝗴𝘁𝗶𝗺𝗲 for AFK\n• Use 𝗶𝗻𝗹𝗶𝗻𝗲 to escape in chat\n  For example: `@imafkbot I\’m sorry; this is not a good time. I will call you later`.\n• Click the popup of your input.\n• This will escape afk footprints and keep you afk still.\n• Do not share any private 𝗰𝗿𝗲𝗱𝗲𝗻𝘁𝗶𝗮𝗹𝘀 via the bot.\n• Happy offscreening 👋';
 
     const messageMarkdownV2 = markdownV2Escape(messageToBeSent);
 
